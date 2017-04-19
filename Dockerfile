@@ -1,3 +1,4 @@
+#Dockerfile para instalar apache y php
 FROM php:7-apache
 
 MAINTAINER commitea <armolinamilla@gmail.com>

@@ -11,6 +11,7 @@ RUN apt-get update \
   && docker-php-ext-install pdo_mysql mysqli mbstring gd iconv mcrypt
 
 RUN apt-get install -y vim
+    && apt-get install -y nano
 
 EXPOSE 80
 
